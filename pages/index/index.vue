@@ -1,10 +1,6 @@
 <template>
 	<view class="content">
-		<image class="logo" src="/static/logo.png"></image>
-		<view class="text-area">
-			<text class="title">{{title}}</text>
-		</view>
-		<u-button>哈哈哈哈</u-button>
+		1111
 	</view>
 </template>
 
