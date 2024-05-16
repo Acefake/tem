@@ -1,0 +1,31 @@
+@import './global.scss';
+
+.title {
+	font-size: $df;
+	font-weight: bold;
+	&-3 {
+		font-weight: bold;
+		font-size: $small;
+	}
+	&-2 {
+		font-weight: bold;
+		font-size: $medium;
+	}
+	&-1 {
+		font-weight: bold;
+		font-size: $large;
+	}
+}
+
+.text {
+	font-size: $df;
+	&-1 {
+		font-size: $large;
+	}
+	&-2 {
+		font-size: $medium;
+	}
+	&-3 {
+		font-size: $small;
+	}
+}
