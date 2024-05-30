@@ -1,0 +1,26 @@
+@import './global.scss';
+
+$theme: red blue green yellow;
+
+@for $i from 1 through length($theme) {
+	.btn-#{$i} {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		height: 80upx;
+		border-radius: 10upx;
+		font-weight: bold;
+		font-size: $df;
+		background-color: nth($theme, $i);
+		color: #fff;
+		font-size: $medium;
+		color: #fff;
+		&:hover,
+		&:active {
+			background-color: darken(nth($theme, $i), 50%);
+		}
+		&:disabled {
+			background-color: lighten(nth($theme, $i), 50%);
+		}
+	}
+}

@@ -21,5 +21,24 @@
 			"^up-(.*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue",
 			"^u-([^-].*)": "@/uni_modules/uview-plus/components/u-$1/u-$1.vue"
 		}
-	}
+	},
+	"subPackages": [
+		{
+			"root": "pages-login/pages",
+			"pages": [
+				{
+					"path": "login/index",
+					"style": {
+						"navigationBarTitleText": "login"
+					}
+				},
+				{
+					"path": "phone-login/index",
+					"style": {
+						"navigationBarTitleText": "phone-login"
+					}
+				}
+			]
+		}
+	]
 }

@@ -1,9 +1,15 @@
 <template>
 	<view class="flex gap-s">
-		<text class="padding-left-small">按钮</text>
-		<u-button type="primary">按钮</u-button>
-		<button class="u-reset-button">你好</button>
+		<u-button type="primary" @click="demo">按钮</u-button>
 	</view>
 </template>
 
-<script setup></script>
+<script setup>
+import { inject } from 'vue';
+const { toast }= inject('$utils')
+
+function demo(){
+	toast.msg('Hello World!')
+}
+
+</script>

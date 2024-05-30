@@ -1,0 +1,1 @@
+<view class="flex gap-s"><u-button wx:if="{{b}}" u-s="{{['d']}}" bindclick="{{a}}" u-i="5f23c10b-0" bind:__l="__l" u-p="{{b}}">按钮</u-button></view>
